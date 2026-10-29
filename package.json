@@ -1,0 +1,19 @@
+{
+  "name": "worksheet-generator",
+  "version": "9.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "node scripts/copy-worker.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "pdfjs-dist": "4.4.168",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "katex": "0.16.22",
+    "fflate": "0.8.2"
+  }
+}
